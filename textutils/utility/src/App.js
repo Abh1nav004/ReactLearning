@@ -8,7 +8,10 @@ function App() {
       {/* Your Custom Navbar Component */}
       <Navbar title="TextUtils" aboutText="About TextUtils"/>
       {/* <Navbar></Navbar> */}
-      <TextForm></TextForm>
+      <div className="container my-3">
+      <TextForm heading="Enter the text to analyze"/>
+      </div>
+      
     </>
 
   );
